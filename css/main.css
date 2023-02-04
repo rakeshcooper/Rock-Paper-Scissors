@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+#playerText {
+  color: rgb(29, 29, 250);
+}
+
+#computerText {
+  color: rgb(244, 18, 18);
+}
+
+#resultText {
+  color: rgb(43, 178, 12);
+}
+
+.center {
+  width: 50%;
+  font-family: "Brush Script MT", cursive;
+  text-align: center;
+  align-items: center;
+  background-color: lightgray;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=main.css.map */
